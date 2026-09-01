@@ -5,6 +5,7 @@ def on_message(client, userdata, message):
     # needs to decode because the original mess in encodec after publishing
     payload = message.payload.decode()
 
+    # code for storing data in Timescaling
     print(payload)
 
 
